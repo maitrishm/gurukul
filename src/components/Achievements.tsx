@@ -2,28 +2,18 @@ export function Achievements() {
   const achievements = [
     {
       year: '2024',
-      title: 'District Level Science Exhibition - First Prize',
-      description: 'Students won first prize in the inter-school science exhibition.',
+      title: 'Organise the first time science exhibition',
+      description: 'Students showcased their science project first time.',
     },
     {
       year: '2024',
       title: 'Excellent SSC Board Results',
-      description: 'Achieved 94% pass rate with multiple students scoring above 85%.',
+      description: 'Achieved 94% pass rate with 3 students scoring above 85%.',
     },
     {
-      year: '2023',
-      title: 'State Level Sports Championship',
-      description: 'School team secured 2nd position in state athletics meet.',
-    },
-    {
-      year: '2023',
-      title: 'Best School Award - Taluka Level',
-      description: 'Recognized for excellence in academic and extracurricular activities.',
-    },
-    {
-      year: '2022',
-      title: 'District Rank Holders',
-      description: 'Multiple students achieved top positions in SSC examination.',
+      year: '2020',
+      title: 'Best SSC board results',
+      description: 'School achieved 100% pass rate.',
     },
   ];
 
@@ -74,7 +64,7 @@ export function Achievements() {
                   </div>
                   <div className="flex-1 bg-white rounded-xl p-5 shadow-sm border border-gray-100">
                     <span className="inline-block bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded-full mb-2">
-                      {achievement.year}
+                      {achievement.year}%
                     </span>
                     <h4 className="font-semibold text-gray-800 mb-1">{achievement.title}</h4>
                     <p className="text-gray-600 text-sm">{achievement.description}</p>

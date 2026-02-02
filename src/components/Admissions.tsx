@@ -53,9 +53,6 @@ export function Admissions() {
           
           <div className="relative z-10 grid lg:grid-cols-2 gap-8 items-center">
             <div>
-              <span className="inline-block bg-white/20 px-4 py-2 rounded-full text-sm font-medium mb-4">
-                🎓 Limited Seats Available
-              </span>
               <h3 className="font-serif text-3xl lg:text-4xl font-bold mb-4">
                 Enroll Your Child Today!
               </h3>
@@ -69,7 +66,7 @@ export function Admissions() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </a>
-                <a href="tel:+919876543210" className="inline-flex items-center gap-2 bg-white/20 px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-colors">
+                <a href="tel:7276052880" className="inline-flex items-center gap-2 bg-white/20 px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-colors">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>

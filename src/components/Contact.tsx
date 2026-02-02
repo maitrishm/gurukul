@@ -83,7 +83,7 @@ export function Contact() {
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
                     <p className="text-white/90">
-                      gurukulenglishhighschool@gmail.com
+                      info@gurukulenglishhighschool.in
                     </p>
                   </div>
                 </div>

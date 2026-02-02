@@ -3,28 +3,24 @@ export function Academics() {
     {
       level: 'Pre-Primary',
       grades: 'Nursery, Jr. KG, Sr. KG',
-      description: 'Play-based learning that develops cognitive, motor, and social skills through fun activities.',
       icon: '🎒',
       color: 'from-red-400 to-red-500',
     },
     {
       level: 'Primary Section',
       grades: 'Class 1 to 4',
-      description: 'Building strong foundations in literacy, numeracy, and environmental awareness.',
       icon: '📚',
       color: 'from-red-500 to-red-600',
     },
     {
       level: 'Middle Section',
       grades: 'Class 5 to 7',
-      description: 'Expanding horizons with comprehensive curriculum covering sciences, arts, and languages.',
       icon: '🔬',
       color: 'from-red-600 to-red-700',
     },
     {
       level: 'Secondary Section',
       grades: 'Class 8 to 10',
-      description: 'Intensive preparation for SSC Board exams with specialized coaching and guidance.',
       icon: '🎓',
       color: 'from-red-700 to-red-800',
     },
@@ -32,7 +28,7 @@ export function Academics() {
 
   const subjects = [
     'English', 'Hindi', 'Marathi', 'Mathematics', 'Science', 'Social Studies',
-    'Computer Science', 'Physical Education', 'Art & Craft', 'Music'
+    'Computer education', 'Physical Education', 'Craft', 'Drawing'
   ];
 
   return (
@@ -61,7 +57,6 @@ export function Academics() {
               </div>
               <h3 className="font-serif font-bold text-xl text-gray-800 mb-2">{program.level}</h3>
               <p className="text-red-600 font-medium text-sm mb-3">{program.grades}</p>
-              <p className="text-gray-600 text-sm leading-relaxed">{program.description}</p>
             </div>
           ))}
         </div>

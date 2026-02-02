@@ -7,9 +7,6 @@ export function Footer() {
           {/* School Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-xl">G</span>
-              </div>
               <div>
                 <h3 className="font-serif font-bold text-lg">Gurukul English High School</h3>
                 <p className="text-gray-400 text-sm">Affiliated to MSBSHSE</p>
@@ -69,7 +66,7 @@ export function Footer() {
                 <svg className="w-5 h-5 text-red-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span className="break-all text-sm">gurukulenglishhighschool@gmail.com</span>
+                <span className="break-all text-sm">info@gurukulenglishhighschool.in</span>
               </li>
             </ul>
           </div>
