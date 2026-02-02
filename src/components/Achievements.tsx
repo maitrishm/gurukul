@@ -19,8 +19,6 @@ export function Achievements() {
 
   const stats = [
     { value: '94%', label: 'Pass Rate 2024', color: 'from-red-500 to-red-600' },
-    { value: '10+', label: 'District Toppers', color: 'from-red-600 to-red-700' },
-    { value: '30+', label: 'Awards Won', color: 'from-red-700 to-red-800' },
     { value: '19+', label: 'Years Legacy', color: 'from-gray-700 to-gray-800' },
   ];
 
@@ -39,7 +37,7 @@ export function Achievements() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-2 lg:grid-cols-2 gap-6 mb-16">
           {stats.map((stat) => (
             <div key={stat.label} className={`bg-gradient-to-br ${stat.color} rounded-2xl p-6 text-white text-center shadow-lg`}>
               <div className="text-4xl lg:text-5xl font-bold mb-2">{stat.value}</div>
@@ -100,7 +98,7 @@ export function Achievements() {
               </div>
               <div className="bg-white/10 rounded-xl p-4 text-center">
                 <p className="text-white/90">
-                  <span className="font-bold text-2xl">78%</span> students scored above 60% in SSC 2024
+                  <span className="font-bold text-2xl">28%</span> students scored above 60% in SSC 2024
                 </p>
               </div>
             </div>
