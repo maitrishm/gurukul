@@ -1,12 +1,9 @@
 export default async (request, context) => {
   const geo = context.geo
 
-  if (
-    geo?.country === "IN" &&
-    geo?.region === "MH"
-  ) {
+  if (geo?.country === "IN" && geo?.region === "MH") {
     return new Response(
-      "Access is restricted in this area.",
+      "Access is restricted in this state.",
       { status: 403 }
     )
   }
