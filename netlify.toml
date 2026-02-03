@@ -5,7 +5,7 @@
 [build.environment]
   NODE_VERSION = "18"
 
-[edge_functions]
+[[edge_functions]]
   path = "/*"
   function = "geoblock"
 
